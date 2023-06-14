@@ -1,0 +1,147 @@
+@media (max-width:999px)  {
+  img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+  
+/* header */
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top:0.8rem ;
+}
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5px;
+}
+header .logo{
+  display: flex;
+  justify-content: center;
+}
+header img{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+/* nav */
+/* home */
+
+ 
+  #Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  #Home .info h1{
+    text-align: center;
+  }
+
+/* About */
+#About h4{
+  padding: 2px;
+  margin: 1rem;
+  text-align: center;
+}
+#About .main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+
+}
+#About .main .right p{
+  margin: 0px 1rem;
+
+}
+#About .main2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#About .main2 .right p{
+  margin: 0px 1rem;
+
+
+}
+/* Statics */
+/* levels */
+/* footer */
+  
+}
+@media (max-width:763px) {
+  /* home */
+  #Home .info p{
+    text-align: center;
+  }
+  
+}
+@media (max-width:658px) {
+  img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+  #About .main2 .left img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+
+  } 
+  
+  
+}
+@media (max-width:573px) {
+  .container ul li a{
+    margin: 0px 4px;
+    padding: 2px 2px;
+  }
+  
+ #Statics table th{
+  display: flex;
+  flex-direction: column;
+  
+ }
+ #Statics table tr{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+
+ }
+}
+@media (max-width:280px) {
+  .container ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+    padding: 2px;
+    font-size: 0.9rem;
+  }
+
+  
+}

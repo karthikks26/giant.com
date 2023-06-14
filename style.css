@@ -1,0 +1,165 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* header */
+header{
+  display: flex;
+  align-items: center;
+  border-bottom:1px solid black ;
+  
+  
+}
+header img{
+  width: 100px;
+  height: 100px;
+  border-radius:  50px; ;
+  margin: 0px 5px;
+}
+header .logo h1{
+  color: rgb(122, 138, 133);
+  font-weight: bold;
+  padding: 2px;
+}
+header .logo{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+/* nav */
+.container{
+  width: 100%;
+
+ 
+  
+}
+.container ul{
+  
+  list-style: none;
+  display: flex;
+}
+.container ul li a{
+  text-decoration: none;
+  padding: 0px 1rem;
+  margin: 0px 1rem;
+  font-weight: bold;
+  color: black;
+  font-size: 1.3rem;
+ 
+}
+.container ul li a:hover{
+  border-bottom: 2px solid blueviolet;
+}
+/* home */
+#Home{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 1rem;
+  
+}
+#Home .gaint-img{
+  width: 50%;
+  
+}
+#Home .info h1{
+  padding: 1rem 0px;
+  margin: 5px 10px;
+}
+
+#Home .info .bold{
+  margin: 5px 10px;
+  font-family: 'Anton', sans-serif;;
+  font-style: italic;
+  font-size: large;
+}
+#Home .info{
+  margin-bottom: 5rem;
+}
+/* About */
+#About .main{
+  display: flex;
+  align-items: center;
+}
+#About .text-align{
+  text-align: center;
+  font-size: 2rem;
+  
+  
+}
+#About .left{
+  width: 50%;
+}
+.main2{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+
+}
+#About .main2 img{
+  width: 456px;
+  height: 585px;
+}
+#About h4{
+  padding: 2px 0px;
+  margin-bottom: 1rem;
+}
+/* Statics */
+#Statics{
+  padding: 1rem;
+  margin: 1rem;
+}
+#Statics h2{
+  text-align: center;
+  margin: 10px 0px;
+}
+#Statics table {
+  margin: auto;
+  
+  
+}
+
+#Statics table tr{
+  background-color: #d6d0d580;
+}
+/* levels */
+#Levels .text-align{
+  text-align: center;
+}
+#Levels .l-c .sub-level p{
+  
+  
+  font-weight: bold;
+  font-size: 1.2rem;
+  
+}
+#Levels .l-c .sub-level {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  
+
+}
+ #Levels img{
+  width: 100px;
+  height: 100px;
+ } 
+ 
+ #Levels .l-c{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ /* footer */
+ footer{
+  background-color: aqua;
+  text-align: center;
+  padding: 0.8rem;
+  color: blueviolet;
+ }
